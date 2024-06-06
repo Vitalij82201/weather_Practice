@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="page-head">Weather</div>
+    </header>
+    <div class="page-wrapper">
+      <form id="form">
+        <label for="city"></label>
+        <input id="city" name="userCity" placeholder="Enter city" />
+        <button type="button" id="get-button">Search</button>
+        <div class="container">
+          <div class="spinner"></div>
+          <div class="icon"></div>
+          <div class="weather-container"></div>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <div class="page-foot"></div>
+    </footer>
+  </body>
+</html>
