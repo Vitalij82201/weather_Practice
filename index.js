@@ -12,6 +12,7 @@ const getWeather = async () => {
   const URL = `https://api.openweathermap.org/data/2.5/weather?q=${personNameCity}&appid=${APP_ID}`;
 
   try {
+    // TEST
     const response = await fetch(URL);
     const result = await response.json();
 
